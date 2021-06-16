@@ -1,0 +1,20 @@
+package com.company;
+import java.util.Scanner;
+
+
+    public class Main {
+
+        public static void main(String[] args) {
+            // write your code here
+            System.out.println("please enter 1st number");
+            //here system.in allows compiler to take the input from the user
+            Scanner sc = new Scanner(System.in);
+            //sc.nextInt allows to store the data
+            int a = sc.nextInt();
+            System.out.println("please enter 2nd number");
+            int b = sc.nextInt();
+            int sum = a + b;
+            System.out.println("the sum of two numbers is");
+            System.out.println(sum);
+        }
+    }
