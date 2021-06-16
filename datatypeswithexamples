@@ -1,0 +1,38 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        //int
+        int a=1;
+        //float
+        float b=22;
+        //short
+        float c=33;
+        //long
+        long d=630388;
+        //double
+        double e=9345;
+        //char
+        //boolean
+
+        //sum of 3 integers
+        int num1=2;
+                int num2=3;
+        int num3=4;
+        int sum=num1+num2+num3;
+        System.out.println("the sum of three int numbers is as follows");
+        System.out.println(sum);
+
+        //sum for 3 float numbers
+        float num4=22;
+        float num5=33;
+        float num6=32;
+        float sum2=num4+num5+num6;
+        System.out.println("the sum of three float numbers is as follows");
+        System.out.println(sum2);
+
+    }
+
+}
