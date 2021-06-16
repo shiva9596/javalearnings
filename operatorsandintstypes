@@ -9,7 +9,7 @@ public class Main {
                 "division(/),modulos(also called as remainder %), inccrement(++),decrement(--)");
         //addition
           int num1=8;
-          int num2=3;
+          int num2=num1+2;
           int sum=num1+num2;
           int subtraction=num1-num2;
           int multiplication=num1*num2;
@@ -31,8 +31,8 @@ public class Main {
         System.out.println("the diff types of comparison operators are equalto(==),not equal to(!=),greaterthanorequalto(>=)" +
                 "lessthanorequalto(<=),greaterthan(>),lessthan(<)" );
         num1=8;
-        num2=2;
-         int p = num1=num2;
+        num2=num1+3;
+         boolean p = num1==num2;
         boolean q= num1!=num2;
         boolean r =num1>num2;
         boolean s=num1<num2;
