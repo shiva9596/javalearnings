@@ -69,6 +69,12 @@ public class Main {
         System.out.println("d");
         //bitwiseoperator
         System.out.println("bitwise operators are &,!");
+        //Assignment Operators
+        int z = 9;
+        z *= 3;
+        System.out.println(b);
+        // 5. Bitwise Operators
+        System.out.println(2&3);
 
     }
 }
