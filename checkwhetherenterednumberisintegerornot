@@ -1,0 +1,14 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        System.out.println("enter number");
+        Scanner sc= new Scanner(System.in);
+        //checks whether we have entered a integer number or not
+        System.out.println(sc.hasNextInt());
+
+    }
+}
