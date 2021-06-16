@@ -1,0 +1,30 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        System.out.println("enter 1st subject marks:");
+        //here System.in allows the compiler to take input from the user
+        Scanner sc = new Scanner(System.in);
+        float subject1= sc.nextFloat();
+        System.out.println("enter 2nd subject marks");
+        float subject2=sc.nextFloat();
+        System.out.println("enter 3rd subject marks");
+        float subject3=sc.nextFloat();
+        System.out.println("enter 4th subject marks");
+        float subject4=sc.nextFloat();
+        System.out.println("enter 5th subject marks");
+        float subject5=sc.nextFloat();
+        System.out.println("enter 6th subject marks");
+        float subject6=sc.nextFloat();
+        System.out.println("the percentage of the student is:");
+        float percentage= (subject1+subject2+subject3+subject4+subject5+subject6)/6;
+        System.out.println(percentage);
+        System.out.println("the cgpa of the candidate is:");
+        float cgpa = (subject1+subject2+subject3+subject4+subject5+subject6)/60;
+        System.out.println(cgpa);
+
+    }
+}
