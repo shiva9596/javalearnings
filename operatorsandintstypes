@@ -1,0 +1,74 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        //arithmetic operator
+        System.out.println("diff types of arithmentic operators are:- addition(+),subtraction(-),multiplication(*)," +
+                "division(/),modulos(also called as remainder %), inccrement(++),decrement(--)");
+        //addition
+          int num1=8;
+          int num2=3;
+          int sum=num1+num2;
+          int subtraction=num1-num2;
+          int multiplication=num1*num2;
+          int division=num1/num2;
+          int remainder=num1%num2;
+
+        System.out.println("sum of two numbers is:-");
+        System.out.println(sum);
+        System.out.println("subtraction operation:-");
+        System.out.println(subtraction);
+        System.out.println("multiplication operation:-");
+        System.out.println(multiplication);
+        System.out.println("division operation:-");
+        System.out.println(division);
+        System.out.println("remainder operation:-");
+        System.out.println(remainder);
+
+        //comparison operators
+        System.out.println("the diff types of comparison operators are equalto(==),not equal to(!=),greaterthanorequalto(>=)" +
+                "lessthanorequalto(<=),greaterthan(>),lessthan(<)" );
+        num1=8;
+        num2=2;
+         int p = num1=num2;
+        boolean q= num1!=num2;
+        boolean r =num1>num2;
+        boolean s=num1<num2;
+        boolean t=num1>=num2;
+        boolean u=num1<=num2;
+        System.out.println("the first number is");
+        System.out.println(num1);
+        System.out.println("the second number is:-");
+        System.out.println(num2);
+        System.out.println("equalto operation:");
+        System.out.println(p);
+        System.out.println("not equalto operation");
+        System.out.println(q);
+        System.out.println("greater than operation");
+        System.out.println(r);
+        System.out.println("less than operation");
+        System.out.println(s);
+        System.out.println("greater than or equalto operation");
+        System.out.println(t);
+        System.out.println("less than or equal to operation");
+        System.out.println(u);
+ //logical operators
+        boolean a;
+        a = true&true;
+        System.out.println("&& operation");
+        System.out.println(a);
+        boolean b;
+        b = true||false;
+        System.out.println("|| operation");
+        System.out.println(b);
+        boolean c = true;
+        boolean d=!c;
+        System.out.println("logical not operation");
+        System.out.println("d");
+        //bitwiseoperator
+        System.out.println("bitwise operators are &,!");
+
+    }
+}
