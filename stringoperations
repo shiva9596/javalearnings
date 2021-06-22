@@ -1,0 +1,45 @@
+package com.company;
+
+import java.util.Locale;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+    String name= "shiva";
+        System.out.println(name);
+        //prints the length of the string
+        int slength = name.length();
+        System.out.println(slength);
+        //prints the all letters in lowercase
+        String slower=name.toLowerCase();
+        System.out.println(slower);
+
+        //prints all characters in uppercase
+        String supper = name.toUpperCase();
+        System.out.println(supper);
+        String nontrimmedString = " Shiva   kumar    goud     ";
+        System.out.println(nontrimmedString);
+
+        //trimmed operation
+       // String tstring=nontrimmedString.trim();
+        System.out.println(nontrimmedString.trim());
+
+        //substring
+        String substring =name.substring(3);
+        System.out.println(substring);
+
+        //
+        System.out.println(name.substring(2));
+        //
+        System.out.println(name.substring(3,5));
+        //
+        System.out.println(name.startsWith("sh"));
+        //
+        System.out.println(name.endsWith("va"));
+        System.out.println(name.charAt(3));
+        System.out.println(name.indexOf("a"));
+        System.out.println(name.lastIndexOf("v"));
+
+    }
+}
